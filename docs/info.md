@@ -1,20 +1,11 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+This implements a full adder on IN0, IN1, and IN2 switches (for A, B, and Carry). It uses 2 XOR gates, 2 AND gates, and an OR gate.
 
 ## How to test
 
-Explain how to use your project
+Output will be LEDs on OUT0 and OUT1. The output will be the binary sum of IN0+IN1+IN2.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+LEDs are used on OUT0 and OUT1.
